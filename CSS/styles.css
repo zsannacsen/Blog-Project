@@ -1,0 +1,41 @@
+header {
+  text-align: center;
+  background: url('https://i.pinimg.com/564x/e1/90/17/e190170c834fc4c7c54cfbf4c5f3eb5f.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+a {
+  color: white;
+}
+h1 {
+  font-size: 50px;
+}
+img {
+  margin: 25px 0 0 0;
+  border: 7px solid white;
+  border-radius: 20px;
+}
+ul {
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
+}
+li {
+  display: inline;
+  padding: 0 10px 0 10px;
+}
+article {
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+}
+@media (min-width: 500px) {
+
+  li {
+    padding: 5px;
+    display: block;
+  }
+}
+.me {
+  width: 15%;
+}
